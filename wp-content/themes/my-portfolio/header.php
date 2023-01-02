@@ -11,8 +11,8 @@
 </head>
 
 <body <?php body_class() ?>>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-        <div class="container-fluid d-flex justify-content-around">
+    <nav class="navbar p-0 navbar-expand-lg bg-body-tertiary sticky-top px-0">
+        <div class="container-fluid mt-0 mb-0 d-flex justify-content-around">
             <a class="navbar-brand" href="<?php echo site_url() ?>"><?php bloginfo() ?></a>
             <button class="navbar-toggler border-0 hover:border-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
