@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&family=Nunito:wght@400;500;600&family=Roboto:wght@300;400;500;700&display=swap');
+/* 
+Theme Name: Portfolio Of Jhalak
+Author: Jhalak Dhami
+Auhtor URI: https://www.jhalakdhami.com.np
+Version:1.0
+Description: The theme is especially designed for portfolio. this theme is developed and degined by
+jhalak dhami. this theme is best for portfolio of anyone. the theme copyright is not include. 
+
+
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Nunito',sans-serif;
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page {
+    padding: 10px 12px;
+    height: auto;
+}
+
+.container-fluid {
+    max-width: 1800px;
+    background-color: #ffffff;
+    padding: 0px;
+}
+.navbar{
+    height: auto;
+}
+.navbar .navbar-brand{
+    font-family: 'nunito',sans-serif;
+    font-size: 47px;
+    font-weight: 600;
+    color: orangered;
+}
+.navbar .collapse{
+    float: right;
+}
+.navbar ul li {
+    margin-left: 10px;
+    line-height: 30px;
+}
+
+.navbar ul li a {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'lato', sans-serif;
+}
